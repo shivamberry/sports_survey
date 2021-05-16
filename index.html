@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sports Survey</title>
+
+    <style>
+
+        /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        body {
+            background-color: #05c46b;
+            font-family: Verdana;
+            text-align: center;
+        }
+
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+
+        /* Styling Button */
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Sports Survey</h1>
+    <form  action="mailto:berryshivam80@gmail.com" method="post" enctype="text/plain">
+      <label>your name</label>
+      <input type="text" name="your name" value=""><br>
+      <label>your email</label>
+      <input type="text" name="your email" value=""><br>
+      <label for="">your age</label>
+      <input type="text" name="your age" value=""><br>
+      <label for="">Which sport you like the most?</label>
+
+           <select name="role" id="role">
+               <option value="cricket">cricket</option>
+               <option value="football">football</option>
+               <option value="badminton">badminton</option>
+               <option value="other">Other</option>
+           </select><br>
+           <ol>
+            <li> <label for="">Who is your favourite football player?</label><br>
+             <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Lionel Messi</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">Christiano Ronaldo</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">None</input>
+            </label></li>
+            <li><label for="">Do you play with your family during pandemic?</label><br>
+              <label for="recommed-1">
+                  <input type="radio"
+                         id="recommed-1"
+                         name="recommed">Yes</input>
+              </label>
+              <label for="recommed-2">
+                  <input type="radio"
+                         id="recommed-2"
+                         name="recommed">No</input>
+              </label>
+              <label for="recommed-3">
+                  <input type="radio"
+                         id="recommed-3"
+                         name="recommed">Maybe</input>
+              </label>
+            </li>
+            <li><label for="">Which one do you prefer?</label><br>
+              <label for="recommed-1">
+                  <input type="radio"
+                         id="recommed-1"
+                         name="recommed">outdoor</input>
+              </label>
+              <label for="recommed-2">
+                  <input type="radio"
+                         id="recommed-2"
+                         name="recommed">indoor</input>
+                       </li>
+              </ol>
+              <input type="submit" name="xyy" >
+
+        </form>
+
+  </body>
+</html>
